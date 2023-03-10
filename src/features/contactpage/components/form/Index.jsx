@@ -3,7 +3,6 @@ import { useState } from "react";
 import axios from "axios";
 // import { PulseLoader } from "react-spinners";
 // import Swal from "sweetalert2";
-import ParticlesBg from "particles-bg";
 
 import style from "./styles.module.css";
 
@@ -40,7 +39,6 @@ export function Formulary() {
 
     return (
         <div className={style.formulary}>
-            <ParticlesBg type="lines" bg={true} />
             <div className={style.formulary_container}>
                 <div className={style.formulary_row}>
                     <div className={style.formulary_item}>
@@ -91,19 +89,29 @@ export function Formulary() {
                         </form>
                     </div>
                     <div className={style.formulary_item}>
-                        <h3>Nos visite</h3>
-                        <p>
-                            Rua de tete, Nampula, Moçambique.
-                            <br />
-                            Tel:+258866460507
-                        </p>
+                        <div className={style.item_box}>
+                            <h3>Nos visite</h3>
+                            <p>
+                                Rua de tete, Nampula, Moçambique.
+                                <br />
+                                Tel:+258 860000001
+                            </p>
+                        </div>
 
                         <br />
+
+                        <div className={style.item_box}>
+                            <h3>Aberto</h3>
+                            <p>Segunda- Sabado {"(7h-19h)"}</p>
+                        </div>
+
                         <br />
 
-                        <h3>Fale conosco</h3>
-                        <p>Voce pode falar conosco com o email abaixo:</p>
-                        <p>E-mail: smartshopmoznpl@gmail.com</p>
+                        <div className={style.item_box}>
+                            <h3>Fale conosco</h3>
+                            <p>Voce pode falar conosco com o email abaixo:</p>
+                            <p>E-mail: smartshopmoznpl@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </div>
