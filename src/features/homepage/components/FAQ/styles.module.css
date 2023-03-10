@@ -84,6 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .right .row p {
     margin-top: 20px;

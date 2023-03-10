@@ -2,14 +2,16 @@ import React from "react";
 
 import { Header } from "../components/header/Index";
 import { Hero } from "../features/servicespage/components/hero/Index";
-import { Content } from "../features/servicespage/components/content/Index";
+import { OurServices } from "../features/servicespage/components/our_services/Index";
+import { Footer } from "../components/footer/Index";
 
 export function Servicespage() {
     return (
         <div>
             <Header />
             <Hero />
-            <Content />
+            <OurServices />
+            <Footer />
         </div>
     );
 }

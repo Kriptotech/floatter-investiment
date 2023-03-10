@@ -1,13 +1,17 @@
-import React from "react";
 import style from "./styles.module.css";
-import ParticlesBg from "particles-bg";
+import { House } from "phosphor-react";
 
 export function Hero() {
     return (
-        <div className={style.hero}>
-            <ParticlesBg type="thick" bg={true} />
-            <div className={style.content}>
-                <h1>SERVIÇOS DA KRIPTOTECK</h1>
+        <div className={style.container}>
+            <div className={style.box}>
+                <h1>Nossos serviços</h1>
+                <p>
+                    <a href="/">
+                        <House color="white" size={20} weight="fill" /> Home
+                    </a>{" "}
+                    // <span>Nossos serviços</span>
+                </p>
             </div>
         </div>
     );
