@@ -15,22 +15,22 @@ export function DesktopHeader() {
 
                 <ul className={style.links}>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="/about">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Paginas</a>
+                        <a href="/team">Equipe</a>
                     </li>
                     <li>
-                        <a href="#">Serviços</a>
+                        <a href="/services">Serviços</a>
                     </li>
                     <li>
-                        <a href="#">Termos de serviço</a>
+                        <a href="/terms">Termos de serviço</a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/contact">
                             <button>
                                 Contactar{" "}
                                 <ArrowCircleRight

@@ -17,22 +17,22 @@ export function TopInfo() {
             <nav>
                 <ul className={style.links}>
                     <li>
-                        <a href="tel:+21236547898">
-                            <Phone size={15} weight="fill" color="#fff" /> +2
-                            123 654 7898
+                        <a href="tel:+2588600009000">
+                            <Phone size={15} weight="fill" color="#fff" />{" "}
+                            +2588600009000
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:eufrasiojoao00@gmail.com">
+                        <a href="mailto:info@ifloatter.com">
                             <Envelope size={15} weight="fill" color="#fff" />{" "}
-                            eufrasiojoao00@gmail.com
+                            info@ifloatter.com
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             {" "}
-                            <MapPin size={15} weight="fill" color="#fff" /> 25/B
-                            Milford Road, New York, USA
+                            <MapPin size={15} weight="fill" color="#fff" /> Av.
+                            do Trabalho, Rua da Unidade 5003, Grande Bazar
                         </a>
                     </li>
                 </ul>

@@ -25,7 +25,7 @@ export function MobileHeader() {
 
             {droppedDown && (
                 <ul className={style.links}>
-                    <a href="#">
+                    <a href="/home">
                         <li>
                             Home
                             <ArrowDown
@@ -35,7 +35,7 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="/about">
                         <li>
                             Sobre
                             <ArrowDown
@@ -45,9 +45,9 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="/team">
                         <li>
-                            Paginas
+                            Equipe
                             <ArrowDown
                                 color="black"
                                 size={10}
@@ -55,7 +55,7 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="/services">
                         <li>
                             Serviços
                             <ArrowDown
@@ -65,7 +65,7 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="/terms">
                         <li>
                             Termos de serviço
                             <ArrowDown
@@ -75,7 +75,7 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="/contact">
                         <li>
                             Contactar
                             <ArrowDown

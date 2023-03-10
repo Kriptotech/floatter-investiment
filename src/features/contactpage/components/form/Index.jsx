@@ -92,7 +92,8 @@ export function Formulary() {
                         <div className={style.item_box}>
                             <h3>Nos visite</h3>
                             <p>
-                                Rua de tete, Nampula, Moçambique.
+                                Av. do Trabalho, Rua da Unidade 5003, Grande
+                                Bazar
                                 <br />
                                 Tel:+258 860000001
                             </p>
@@ -110,7 +111,7 @@ export function Formulary() {
                         <div className={style.item_box}>
                             <h3>Fale conosco</h3>
                             <p>Voce pode falar conosco com o email abaixo:</p>
-                            <p>E-mail: smartshopmoznpl@gmail.com</p>
+                            <p>E-mail: info@ifloatter.com</p>
                         </div>
                     </div>
                 </div>
