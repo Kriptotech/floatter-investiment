@@ -5,7 +5,7 @@ import { ArrowCircleRight } from "phosphor-react";
 export function AboutUs() {
     return (
         <div className={style.container}>
-            <div className={style.left}>
+            <div className={style.left} data-aos="fade-right">
                 <img src={IMG} alt="" />
 
                 <div className={style.box}>
@@ -14,7 +14,7 @@ export function AboutUs() {
                 </div>
             </div>
 
-            <div className={style.right}>
+            <div className={style.right} data-aos="fade-left">
                 <span>SOBRE NÓS</span>
                 <h2>
                     Melhor Investimento <span>Flexivel E Seguro</span> Para Ti

@@ -5,7 +5,7 @@ import { Anchor, Clock, Envelope, MapPin, Phone } from "phosphor-react";
 export function Footer() {
     return (
         <div className={style.container}>
-            <div className={style.box}>
+            <div className={style.box} data-aos="fade-up">
                 <div className={style.item}>
                     <img src={Logo} alt="" />
 

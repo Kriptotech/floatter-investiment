@@ -5,8 +5,8 @@ export function Hero() {
     return (
         <div className={style.container}>
             <div className={style.box}>
-                <h1>Politica de privacidade</h1>
-                <p>
+                <h1 data-aos="fade-down">Politica de privacidade</h1>
+                <p data-aos="fade-up">
                     <a href="/">
                         <House color="white" size={20} weight="fill" /> Home
                     </a>{" "}

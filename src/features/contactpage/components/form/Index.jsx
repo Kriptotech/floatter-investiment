@@ -41,7 +41,7 @@ export function Formulary() {
         <div className={style.formulary}>
             <div className={style.formulary_container}>
                 <div className={style.formulary_row}>
-                    <div className={style.formulary_item}>
+                    <div className={style.formulary_item} data-aos="fade-right">
                         <form onSubmit={(e) => sebmitForm(e)}>
                             <div className={style.input_container}>
                                 <div className={style.input_box}>
@@ -88,7 +88,8 @@ export function Formulary() {
                             </button>
                         </form>
                     </div>
-                    <div className={style.formulary_item}>
+
+                    <div className={style.formulary_item} data-aos="fade-left">
                         <div className={style.item_box}>
                             <h3>Nos visite</h3>
                             <p>

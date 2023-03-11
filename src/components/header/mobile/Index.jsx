@@ -25,7 +25,7 @@ export function MobileHeader() {
 
             {droppedDown && (
                 <ul className={style.links}>
-                    <a href="/home">
+                    <a href="/">
                         <li>
                             Home
                             <ArrowDown

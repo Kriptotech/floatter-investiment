@@ -9,7 +9,7 @@ export function FAQ() {
 
     return (
         <div className={style.container}>
-            <div className={style.left}>
+            <div className={style.left} data-aos="fade-right">
                 <span>FAQ'S</span>
                 <h2>
                     General <span>Frequently Asked</span> Questions
@@ -29,7 +29,7 @@ export function FAQ() {
                 </a>
             </div>
 
-            <div className={style.right}>
+            <div className={style.right} data-aos="fade-left">
                 <div className={style.row}>
                     <div
                         className={style.row_header}

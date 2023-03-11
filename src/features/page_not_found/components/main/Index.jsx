@@ -4,18 +4,17 @@ import style from "./styles.module.css";
 export function Main() {
     return (
         <div className={style.container}>
-            <div className={style.box}>
+            <div className={style.box} data-aos="fade-down">
                 <h1>
                     <span>4</span>0<span>4</span>
                 </h1>
-                <p>Opos... Pagina náo encontrada!</p>
+                <p>Oops... Pagina náo encontrada!</p>
                 <small>
-                    The page you looking for not found may be it not exist or
-                    removed.
+                    A pagina que estás a procura não esta disponivel ou foi
+                    removida.
                 </small>
                 <a href="/">
-                    <HouseLine color="white" size={25} weight="fill" /> Go back
-                    home
+                    <HouseLine color="white" size={25} weight="fill" /> Voltar
                 </a>
             </div>
         </div>

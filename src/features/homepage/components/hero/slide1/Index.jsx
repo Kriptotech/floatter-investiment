@@ -3,7 +3,7 @@ import style from "./styles.module.css";
 export function SlideOne() {
     return (
         <div className={style.container}>
-            <div className={style.box}>
+            <div data-aos="fade-down" className={style.box}>
                 <span>Floatter Investiment!</span>
                 <h1>
                     Investindo na Floatter tens “o melhor negocio para uma vida
