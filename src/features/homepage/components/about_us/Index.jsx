@@ -33,7 +33,7 @@ export function AboutUs() {
                     plataforma.
                 </p>
 
-                <a href="#">
+                <a href="/about">
                     Saiba mais{" "}
                     <ArrowCircleRight color="white" size={20} weight="fill" />
                 </a>

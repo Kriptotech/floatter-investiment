@@ -85,6 +85,26 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
+                    <a href="https://payfloat.co.mz">
+                        <li>
+                            PayFloat
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
+                    <a href="https://iShare.co.mz">
+                        <li>
+                            IShare SMS
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
                 </ul>
             )}
         </header>

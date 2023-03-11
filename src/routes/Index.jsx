@@ -8,6 +8,7 @@ import { Servicespage } from "../pages/Services";
 import { Teampage } from "../pages/Team";
 import { Termspage } from "../pages/Terms";
 import { PageNotFound } from "../pages/PageNotFound";
+import { Privacypage } from "../pages/Privacy";
 
 export function Router() {
     return (
@@ -20,6 +21,7 @@ export function Router() {
                     <Route path="/services" element={<Servicespage />} />
                     <Route path="/team" element={<Teampage />} />
                     <Route path="/terms" element={<Termspage />} />
+                    <Route path="/privacy" element={<Privacypage />} />
                     <Route path="*" element={<PageNotFound />} />
                 </Routes>
             </BrowserRouter>

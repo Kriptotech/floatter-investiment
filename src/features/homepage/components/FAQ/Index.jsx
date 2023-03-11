@@ -23,7 +23,7 @@ export function FAQ() {
                     at its layout.
                 </p>
 
-                <a href="#">
+                <a href="/contact">
                     Ask a question{" "}
                     <ArrowCircleRight color="white" size={20} weight="fill" />
                 </a>

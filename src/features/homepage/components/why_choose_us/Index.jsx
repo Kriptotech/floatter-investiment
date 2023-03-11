@@ -32,8 +32,8 @@ export function WhyChooseUs() {
                     obter os ganhos passivos os bónus, desde que tenha o pacote
                     activo e começa a ganha os seus lucros diários.
                 </p>
-                <a href="#">
-                    Discover more{" "}
+                <a href="/services">
+                    Descubra mais{" "}
                     <ArrowCircleRight color="white" size={20} weight="fill" />
                 </a>
             </div>

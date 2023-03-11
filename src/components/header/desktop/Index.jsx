@@ -1,10 +1,12 @@
-import { ArrowCircleRight } from "phosphor-react";
+import { ArrowCircleRight, ArrowDown } from "phosphor-react";
 import { TopInfo } from "../top_info/Index.jsx";
 
 import style from "./styles.module.css";
 import Logo from "./logo.png";
+import { useState } from "react";
 
 export function DesktopHeader() {
+    const [isMouseOver, setIsMouseOver] = useState(false);
     return (
         <header className={style.main_header}>
             <TopInfo />
@@ -16,6 +18,35 @@ export function DesktopHeader() {
                 <ul className={style.links}>
                     <li>
                         <a href="/">Home</a>
+                    </li>
+                    <li
+                        onMouseOver={() => {
+                            setIsMouseOver(true);
+                        }}
+                        onMouseOut={() => {
+                            setIsMouseOver(false);
+                        }}
+                    >
+                        <span>
+                            Investimentos <ArrowDown />
+                        </span>
+                        {isMouseOver && (
+                            <div className={style.dropped_box}>
+                                <div className={style.dropped_box_space}>
+                                    <div className={style.dropped_box_list}>
+                                        <a href="https://payfloat.co.mz">
+                                            PayFloat
+                                        </a>
+                                        <a href="https://iShare.co.mz">
+                                            IShare SMS
+                                        </a>
+                                        <a>Poupanças</a>
+                                        <a>Tecnologia</a>
+                                        <a>Treinamentos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                     </li>
                     <li>
                         <a href="/about">Sobre</a>

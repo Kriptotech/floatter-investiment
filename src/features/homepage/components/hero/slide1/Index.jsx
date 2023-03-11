@@ -5,12 +5,14 @@ export function SlideOne() {
         <div className={style.container}>
             <div className={style.box}>
                 <span>Floatter Investiment!</span>
-                <h1>Gerenciamentos Optimizados</h1>
+                <h1>
+                    Investindo na Floatter tens “o melhor negocio para uma vida
+                    melhor”
+                </h1>
                 <p>
-                    Oferecemos um gerenciamento abrangente de portfólio,
-                    montamos uma carteira ideal para si, junto a outras contas
-                    de investimento e gerenciamos um portfólio projectado para
-                    atender às suas necessidades.
+                    No entanto, nosso objetivo é aconselhar e oferecer soluções
+                    para todas as necessidades de serviços financeiros de nossos
+                    clientes.
                 </p>
 
                 <div>

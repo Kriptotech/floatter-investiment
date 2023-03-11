@@ -9,7 +9,6 @@ import {
 } from "phosphor-react";
 
 import style from "./styles.module.css";
-import Logo from "./logo.png";
 
 export function TopInfo() {
     return (
