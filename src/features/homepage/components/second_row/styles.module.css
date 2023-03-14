@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     gap: 30px;
     background-color: var(--primary-2);
+    margin-top: 50px;
 }
 
 .container .box {

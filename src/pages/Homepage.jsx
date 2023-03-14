@@ -19,7 +19,7 @@ export function Homepage() {
             <AboutUs />
             {/* <FirstRow /> */}
             <WhyChooseUs />
-            <OurTeam />
+            {/* <OurTeam /> */}
             <SecondRow />
             <OurServices />
             <FAQ />

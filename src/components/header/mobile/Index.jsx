@@ -45,7 +45,7 @@ export function MobileHeader() {
                             />
                         </li>
                     </a>
-                    <a href="/team">
+                    {/* <a href="/team">
                         <li>
                             Equipe
                             <ArrowDown
@@ -54,7 +54,7 @@ export function MobileHeader() {
                                 weight="duotone"
                             />
                         </li>
-                    </a>
+                    </a> */}
                     <a href="/services">
                         <li>
                             Serviços
@@ -98,6 +98,46 @@ export function MobileHeader() {
                     <a href="https://iShare.co.mz">
                         <li>
                             IShare SMS
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
+                    <a>
+                        <li>
+                            Consultoria
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
+                    <a>
+                        <li>
+                            Treinamentos
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
+                    <a>
+                        <li>
+                            Fiscalidade
+                            <ArrowDown
+                                color="black"
+                                size={10}
+                                weight="duotone"
+                            />
+                        </li>
+                    </a>
+                    <a>
+                        <li>
+                            Auditoria
                             <ArrowDown
                                 color="black"
                                 size={10}

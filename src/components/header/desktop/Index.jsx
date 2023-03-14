@@ -28,7 +28,7 @@ export function DesktopHeader() {
                         }}
                     >
                         <span>
-                            Investimentos <ArrowDown />
+                            Mais <ArrowDown />
                         </span>
                         {isMouseOver && (
                             <div className={style.dropped_box}>
@@ -40,9 +40,10 @@ export function DesktopHeader() {
                                         <a href="https://iShare.co.mz">
                                             IShare SMS
                                         </a>
-                                        <a>Poupanças</a>
-                                        <a>Tecnologia</a>
                                         <a>Treinamentos</a>
+                                        <a>Consultoria</a>
+                                        <a>Fiscalidade</a>
+                                        <a>Auditoria</a>
                                     </div>
                                 </div>
                             </div>
@@ -51,9 +52,9 @@ export function DesktopHeader() {
                     <li>
                         <a href="/about">Sobre</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="/team">Equipe</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="/services">Serviços</a>
                     </li>

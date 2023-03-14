@@ -7,8 +7,8 @@ export function Footer() {
         <div className={style.container}>
             <div className={style.box} data-aos="fade-up">
                 <div className={style.item}>
-                    <img src={Logo} alt="" />
-
+                    <img src={Logo} width={150} alt="" />
+                    <br />
                     <p>
                         Oferecemos um gerenciamento abrangente de portfólio,
                         montamos uma carteira ideal para si, junto a outras
