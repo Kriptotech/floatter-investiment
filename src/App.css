@@ -1,0 +1,40 @@
+:root {
+    --page-background: #fafafa;
+    --box-background: rgb(255, 255, 255);
+    --black: rgb(0, 36, 72);
+
+    --primary-1: #002245;
+    --primary-2: #4298ef;
+    --primary-3: #6bb5ff;
+
+    --tb1: rgb(0, 36, 83);
+    --tb2: rgb(72, 77, 104);
+    --tb3: rgb(117, 127, 175);
+
+    --tw1: #f8f8f8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: var(--black);
+    background-color: var(--page-background);
+}
+.app {
+    z-index: 1;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(229, 7%, 54%);
+    border-radius: 15px;
+}

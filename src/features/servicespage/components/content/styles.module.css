@@ -1,0 +1,24 @@
+.container {
+    margin-top: 10px;
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.container {
+    flex: 1;
+    color: var(--tb2);
+}
+
+.container h1 {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.container h2 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.container p {
+    text-align: justify;
+    line-height: 27px;
+    margin-bottom: 23px;
+}
